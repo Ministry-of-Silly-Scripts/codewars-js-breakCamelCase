@@ -1,5 +1,5 @@
-const checkCharUpper = () => {
-  return true;
+const checkCharUpper = (char) => {
+  return char === char.toUpperCase();
 };
 
 const breakCamelCase = (string) => {

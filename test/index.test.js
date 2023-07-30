@@ -10,6 +10,10 @@ describe('checkCharUpper', () => {
   it('should return true for input equal to "A"', () => {
     expect(checkCharUpper('A')).toBe(true);
   });
+
+  it('should return false for input equal to "a"', () => {
+    expect(checkCharUpper('a')).toBe(false);
+  });
 });
 
 describe('breakCamelCase', () => {
