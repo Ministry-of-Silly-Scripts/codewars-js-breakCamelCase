@@ -13,7 +13,12 @@ Example
 
 ## Domain
 
+- input: string
+- output: string
+
 ### Rules
+- break up camel case input string 
+- space between words
 
 ---
 
@@ -31,3 +36,5 @@ TODO:
   - update NOTES ✅
   - update package.json ✅
   - update code/test files ✅
+- domain discussion ✅
+
