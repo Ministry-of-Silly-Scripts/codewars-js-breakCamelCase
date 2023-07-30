@@ -40,3 +40,4 @@ TODO:
 - domain discussion ✅
 - perform the 'canary' test just to check if the structure works ✅
 - it should return "" for input equal to "" ✅
+- it should return "identifier" for input equal to "identifier" ✅

@@ -10,4 +10,8 @@ describe('breakCamelCase', () => {
   it('should return "" for input equal to ""', () => {
     expect(breakCamelCase('')).toBe('');
   });
+
+  it('should return "identifier" for input equal to "identifier"', () => {
+    expect(breakCamelCase('identifier')).toBe('identifier');
+  });
 });
