@@ -3,7 +3,17 @@ const checkCharUpper = (char) => {
 };
 
 const breakCamelCase = (string) => {
-  return string;
+  let finalWord = '';
+
+  for (let i = 0; i < string.length; i += 1) {
+    if (checkCharUpper(string[i])) {
+      finalWord += ' ';
+    }
+
+    finalWord += string[i];
+  }
+
+  return finalWord;
 };
 
 module.exports = {

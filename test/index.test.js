@@ -25,7 +25,7 @@ describe('breakCamelCase', () => {
     expect(breakCamelCase('identifier')).toBe('identifier');
   });
 
-  // it('should return "camel Casing" for input equal to "camelCasing"', () => {
-  //   expect(breakCamelCase('camelCasing')).toBe('camel Casing');
-  // });
+  it('should return "camel Casing" for input equal to "camelCasing"', () => {
+    expect(breakCamelCase('camelCasing')).toBe('camel Casing');
+  });
 });
