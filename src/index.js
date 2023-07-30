@@ -1,5 +1,5 @@
-const placeholder = () => true;
+const breakCamelCase = () => true;
 
 module.exports = {
-  placeholder,
+  breakCamelCase,
 };

@@ -1,8 +1,8 @@
-# XXXXX kata
+# Break camelCasekata
 
-XXXXX kata performed by to practice TDD for the Jaguars training at IBM
+Break camelCase kata performed by to practice TDD for the Jaguars training at IBM
 
-[XXXXXX on CodeWars](https://www.codewars.com/kata/)
+[Break camelCase on CodeWars](https://www.codewars.com/kata/5208f99aee097e6552000148)
 
 ## Prerequisites
 

@@ -1,5 +1,5 @@
-const { placeholder } = require('../src/index');
+const { breakCamelCase } = require('../src/index');
 
-test('placeholder', () => {
-  expect(placeholder(0)).toBe(true);
+test('breakCamelCase', () => {
+  expect(breakCamelCase(0)).toBe(true);
 });
