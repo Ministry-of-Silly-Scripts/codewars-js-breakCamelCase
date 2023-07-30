@@ -6,6 +6,8 @@ describe('the breakCamelCase canary spec', () => {
   });
 });
 
-test('breakCamelCase', () => {
-  expect(breakCamelCase(0)).toBe(true);
+describe('breakCamelCase', () => {
+  it('should return "" for input equal to ""', () => {
+    expect(breakCamelCase('')).toBe('');
+  });
 });
