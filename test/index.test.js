@@ -28,4 +28,8 @@ describe('breakCamelCase', () => {
   it('should return "camel Casing" for input equal to "camelCasing"', () => {
     expect(breakCamelCase('camelCasing')).toBe('camel Casing');
   });
+
+  it('should return "this Is A Test" for input equal to "thisIsATest"', () => {
+    expect(breakCamelCase('thisIsATest')).toBe('this Is A Test');
+  });
 });
